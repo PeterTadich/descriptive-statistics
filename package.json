@@ -1,0 +1,20 @@
+{
+  "name": "descriptive-statistics",
+  "version": "1.0.0",
+  "description": "Descriptive Statistics",
+  "main": "mcds.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeterTadich/descriptive-statistics.git"
+  },
+  "keywords": [],
+  "author": "Peter Tadich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PeterTadich/descriptive-statistics/issues"
+  },
+  "homepage": "https://github.com/PeterTadich/descriptive-statistics#readme"
+}

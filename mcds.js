@@ -13,7 +13,7 @@ function abs(scr){
     return scr.map((cur, idx, scr)=>([Math.abs(scr[idx])]))
 }
 
-//help (pow)
+//helper (pow)
 function pow(scr,exponent){
     return scr.map((cur, idx, scr)=>([Math.pow(scr[idx],exponent)]))
 }
