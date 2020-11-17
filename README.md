@@ -15,7 +15,7 @@ No installation required for the Google Chrome Web browser.
 
 ## How to use
 
-### Node.JS/Google Chrome Web browser
+### Node.js/Google Chrome Web browser
 
 ```js
 import * as mcds from 'descriptive-statistics';
@@ -36,7 +36,7 @@ console.log("max: " + x.reduce(mcds.max));
 console.log("sample standard deviation: " + mcds.sample_standard_deviation(x).toFixed(4));
 ```
 
-The run:
+Then run:
 
 ```bash
 npm init -y
@@ -80,6 +80,8 @@ httpd.conf file include:
 ```conf
 AddType text/javascript .mjs
 ```
+
+Alternatively change the file extension from *.mjs to *.js
 
 ## License
 
