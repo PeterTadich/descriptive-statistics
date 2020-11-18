@@ -315,14 +315,14 @@ function summary_statistics(c){ //c - column vector
     
     //interquartile range
     var iqr = q3 - q1;
-    console.log("   - interquartile range: " + iqr.toFixed(2));
+    //console.log("   - interquartile range: " + iqr.toFixed(2));
     
     //mild outliers
     var A = [(q1 - 1.5*iqr),(q3 + 1.5*iqr)];
-    console.log("   - mild outliers (inner fences): [" + A[0].toFixed(2) + "," + A[1].toFixed(2) + "]");
+    //console.log("   - mild outliers (inner fences): [" + A[0].toFixed(2) + "," + A[1].toFixed(2) + "]");
     //extreme outliers
     var B = [(q1 - 3.0*iqr),(q3 + 3.0*iqr)];
-    console.log("   - extreme outliers (outer fences): [" + B[0].toFixed(2) + "," + B[1].toFixed(2) + "]");
+    //console.log("   - extreme outliers (outer fences): [" + B[0].toFixed(2) + "," + B[1].toFixed(2) + "]");
     
     //count
     var n = c.length;
