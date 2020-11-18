@@ -338,7 +338,7 @@ function summary_statistics(c){ //c - column vector
     c_copy.sort((a,b)=>(a-b));
     
     //find mild outliers
-    var mol =[]; var mou = []; non_outliers = []; outliers = [];
+    var mol =[]; var mou = []; var non_outliers = []; var outliers = [];
     c_copy.forEach((d,i)=>{
         if(d < A[0]) mol.push(d);
         else if(d > A[1]) mou.push(d);
