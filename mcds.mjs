@@ -234,7 +234,7 @@ console.log(xp_check);
 function percentiles(c,p){ //c - column vector, p - percentiles
     var debug = 0;
     
-    var np; var xp = []; var idx; var A = [];
+    var np; var xp = []; var idx; var A = []; var d;
     
     //count
     var n = c.length;
