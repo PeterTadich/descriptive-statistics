@@ -52,12 +52,10 @@ Helpful ref: [https://stackoverflow.com/questions/45854169/how-can-i-use-an-es6-
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --experimental-modules index.mjs"
   },
-"type": "module"
+"type": "module",
 ```
 
 ```bash
-npm init -y
-npm install https://github.com/PeterTadich/descriptive-statistics#main
 npm start
 ```
 
